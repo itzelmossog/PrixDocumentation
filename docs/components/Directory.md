@@ -58,15 +58,15 @@ The Directory shows a set of listed elements in alphabetical order that can be f
 
 ## Properties
 
-| Property        | Attribute 	    | Description      | Type  | Default|
-| :-------        | :------:         | :--------------- |-----: |-----:|
+| Property        | Attribute 	     | Description      | Type   | Default|
+| :-------------- | :--------------: | :----------------|-------:|-------:|
 |``configuration``| ``configuration``| Common attributes|``any``|``{}``|
 | ``data``        | ``data``         | Common attributes|``any``|``{}``|
 
 ## Public API
-| Method   | Params    |  Description  |
-| ------- | :------:  | :---------|
-| toggleSelection 	| () 	        |	Use this method to apply selection to all letters |
-| toggleModal    	| ()           | Use this method to show a directory grid in mobile phones |
-| filterByInput    	| () |	Use this method to filter items by typing in search box |
-| filterByCheckBox  | input:String |	Use this method to filter items by checking any nav bar letter |
+| Method   			| Params    	|  Description  												 |
+| ----------------- |:-------------:| :--------------------------------------------------------------|
+| toggleSelection 	| () 	        | Use this method to apply selection to all letters 			 |
+| toggleModal    	| ()            | Use this method to show a directory grid in mobile phones 	 |
+| filterByInput    	| () 			| Use this method to filter items by typing in search box 		 |
+| filterByCheckBox  | input:String  | Use this method to filter items by checking any nav bar letter |

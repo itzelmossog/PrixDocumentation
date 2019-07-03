@@ -1,1 +1,1 @@
-web: docs:dev
+web: vuepress docs:dev

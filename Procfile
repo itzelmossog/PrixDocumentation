@@ -1,1 +1,1 @@
-web: vuepress dev docs
+web: npm install;vuepress dev docs

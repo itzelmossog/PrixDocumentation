@@ -65,10 +65,10 @@ The Side Menu is a navigation element that helps the user move through the webpa
 
 This is a table:
 
-| Property        | Attribute 	     | Description                                                    | Type   | Default|
-| :-------- | :-------: | :---------------------------------------------------------------------------|-------:|-------:|
+| Property        | Attribute 	     | Description                                                   | Type     | Default|
+| :-------- | :-------: | :--------------------------------------------------------------------------|---------:|-------:|
 |``message``|``message``|This attribute defines the message displayed in before the options in a menu|``String``|``{ }``| 
-|  ``dark`` | ``dark``  |This is changed upon a dark menu option                                     |``bool``|``false``|
+|  ``dark`` | ``dark``  |This is changed upon a dark menu option                                     |``bool``  |``false``|
 
 
 ## Public API

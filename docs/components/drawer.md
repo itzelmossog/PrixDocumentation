@@ -1,6 +1,6 @@
 # Drawer
 
-This is the file containing the **Directory**, component by the 
+This is the file containing the **Drawer**, component by the 
 **Prix Team**
 
 ## Design Specifications
@@ -38,18 +38,18 @@ The Drawer shows space on the page that can be used to add content using slots.
 
 ## Properties
 
-| Property	   | Attribute 	     	| Description                           | Type     | Default |
-| :------------| :--------------: 	| :-------------------------------------|:--------:|-------:|
-|``color``     | ``Any CSS color``  | Chooses the drawer's color            |``design``|``#AFA``|
-|``expandSize``| ``small, medium, large`` | Changes the width of the drawer depending on the viewport|``design``|``small``|
-| ``side``     |``es-top, es-buttom, es-left, es-right``| Chooses the side from where the drawer opens |``design``|``left``|
-|``opacity``   | ``boolean`` 		| An opacity effect applied to the body |``design``|``false``|
+| Property	   | Attribute 	                         	| Description                               | Type     | Default  |
+| :------------| :------------------------------------: | :-----------------------------------------|:--------:|---------:|
+|``color``     | ``Any CSS color``                      | Changes the drawer's color                |``design``|``#AFA``  |
+|``expandSize``| ``small, medium, large``               |Sets the width of the drawer depending on the viewport|``design``|``small``|
+| ``side``     |``es-top, es-buttom, es-left, es-right``| Sets the side from where the drawer opens |``design``|``left``  |
+|``opacity``   | ``boolean`` 		                    | An opacity effect applied to the body     |``design``|``false`` |
 
 
 ## Public API
-| Method   | Params    |  Description  |
-| ------- | :------:  | :---------|
-| showDrawer| () 	| async, shows the drawer. Triggered outside the component  |
-| hideDrawer | ()  | async, hides the drawer. Triggered outside the component   |
+| Method     | Params    |  Description                                             |
+| -----------| :------:  | :--------------------------------------------------------|
+| showDrawer | () 	     | async, shows the drawer. Triggered outside the component |
+| hideDrawer | ()        | async, hides the drawer. Triggered outside the component |
 
 

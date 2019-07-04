@@ -5,7 +5,7 @@ This is the file containing the **Directory**, component by the
 **Prix Team**
 
 ## Design Specifications
-The Directory shows a set of listed elements in alphabetical order that can be filther by letter one by one or all at the same time.
+The Directory shows a set of listed elements in alphabetical order that can be filtered by letter, one by one, or all at the same time.
 
 ## How do I do? (HTML Markup)
 	<prix-directory></prix-directory>
@@ -60,13 +60,13 @@ The Directory shows a set of listed elements in alphabetical order that can be f
 
 | Property        | Attribute 	     | Description      | Type   | Default|
 | :-------------- | :--------------: | :----------------|-------:|-------:|
-|``configuration``| ``configuration``| Common attributes|``any``|``{}``|
-| ``data``        | ``data``         | Common attributes|``any``|``{}``|
+|``configuration``| ``configuration``| Common attributes|``any`` |``{}``  | 
+| ``data``        | ``data``         | Common attributes|``any`` |``{}``  |
 
 ## Public API
-| Method   			| Params    	|  Description  												 |
-| ----------------- |:-------------:| :--------------------------------------------------------------|
-| toggleSelection 	| () 	        | Use this method to apply selection to all letters 			 |
-| toggleModal    	| ()            | Use this method to show a directory grid in mobile phones 	 |
-| filterByInput    	| () 			| Use this method to filter items by typing in search box 		 |
-| filterByCheckBox  | input:String  | Use this method to filter items by checking any nav bar letter |
+| Method   		    	| Params    	  |  Description      							                                |
+| ----------------- |:-------------:| :---------------------------------------------------------------|
+| toggleSelection 	| () 	          | Use this method to apply selection to all letters 			        |
+| toggleModal    	  | ()            | Use this method to show a directory grid in mobile phones 	    |
+| filterByInput    	| () 			      | Use this method to filter items by typing in search box 		    | 
+| filterByCheckBox  | input:String  | Use this method to filter items by checking any nav bar letter  |

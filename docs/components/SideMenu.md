@@ -65,16 +65,21 @@ The Side Menu is a navigation element that helps the user move through the webpa
 
 This is a table:
 
-| Property        | Attribute 	     | Description                                                   | Type     | Default|
-| :-------- | :-------: | :--------------------------------------------------------------------------|---------:|-------:|
-|``message``|``message``|This attribute defines the message displayed in before the options in a menu|``String``|``{ }``| 
-|  ``dark`` | ``dark``  |This is changed upon a dark menu option                                     |``bool``  |``false``|
+| Property  | Attribute | Description                                                                | Type     | Default |
+| :-------- | :-------: | :--------------------------------------------------------------------------|---------:|--------:|
+|``message``|``String`` |This attribute defines the message displayed in before the options in a menu|``String``|``{ }``  | 
+|  ``color``| ``String``|This attribute defines the color theme of the menu                          |``bool``  |``false``|
+|  ``data`` | ``any``   | Data related to the options the user will pick up                          |``bool``  |``false``|
+|  ``dark`` |``boolean``|This is changed upon a dark menu option                                     |``bool``  |``false``|
 
 
 ## Public API
-| Method   			| Params    	|  Description  												 |
-| ----------------- |:-------------:| :--------------------------------------------------------------|
-|  	                | () 	        |	                                                             |
+| Method   	   | Params  |  Description  	   				                                                     |
+| ------------ |:-------:| :-------------------------------------------------------------------------------------|
+| handleToggle | ()      | This function will toggle classes that will enable transitions                        |
+| menuToggle   | ()      | This function will toggle classes that will enable transitions                        |
+| setValue     | (Color) | Changes the color of the menu                                                         |	  
+| darkTheme    | ()      | Switches the aparience of the menu to a more delightful visual experience in the dark |
 
 
 

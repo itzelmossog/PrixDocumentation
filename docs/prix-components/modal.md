@@ -6,6 +6,9 @@ This is the file containing the **Modal**, component by the
 ## Design Specifications
 The Modal shows a pop up space where content is displayed to either show a warning, a message, or even a set of options where the user can choose.
 
+## Demo
+<modalDemo/>
+
 ## How do I do? (HTML Markup)
 ``` html
 <prix-modal
@@ -29,7 +32,6 @@ The Modal shows a pop up space where content is displayed to either show a warni
     </prix-modal>
 ```
 
-
 ## JSON Data Model
 
 ``` json
@@ -50,12 +52,6 @@ The Modal shows a pop up space where content is displayed to either show a warni
         "cancelLabelColorText" : "blue",
         "acceptLabelColor" :  "#EAF4EB",
         "acceptLabelColorText" : "#43a047"
-    },
-
-    "data":{
-        "header" : "",
-        "body" : "",
-        "footer" : ""
     }
 
 }

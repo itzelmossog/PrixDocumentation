@@ -7,18 +7,22 @@ This is the file containing the **Directory**, component by the
 ## Design Specifications
 The Directory shows a set of listed elements in alphabetical order that can be filtered by letter, one by one, or all at the same time.
 
+## Demo
+<directoryDemo/>
+
+
 ## How do I do? (HTML Markup)
+
+``` html
 	<prix-directory></prix-directory>
+``` 
+
 ## JSON Data Model
 ``` json
 "configuration": {
     "sort": {
       "direction": "asc",
       "byField": "index"
-    },
-    "sort-level": {
-      "direction": "asc",
-      "byField": "title"
     }
   },
   "styling": {
@@ -51,7 +55,7 @@ The Directory shows a set of listed elements in alphabetical order that can be f
             "url": "http://www.antara.com.mx/"
           }
         ]
-      },
+      }
       
 ```
 

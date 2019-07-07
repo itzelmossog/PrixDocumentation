@@ -6,6 +6,8 @@ This is the file containing the **Drawer**, component by the
 ## Design Specifications
 The Drawer shows space on the page that can be used to add content using slots.
 
+## Demo
+<drawerDemo/>
 
 ## How do I do? (HTML Markup)
 
@@ -22,16 +24,10 @@ The Drawer shows space on the page that can be used to add content using slots.
 ``` json
 {
     "configuration":{
-        "color":{"value" : ""},
-        "expandSize":{"value" : ""},
-        "side":{"value" : ""},
-        "opacity":{"value" : ""}
-    },
-    "styling":{
-        "colorscheme":""
-    },
-    "data":{
-        "slot":{ "elements": []}
+        "color":"",
+        "expandSize":"",
+        "side":"",
+        "opacity":""
     }
 }
 ```
